@@ -19,6 +19,7 @@ public class ClienteController {
         this.clientes = clientes;
     }
 
+
     @GetMapping("/api/clientes/{id}")
     @ResponseBody
     public ResponseEntity<Cliente> getClienteById (@PathVariable Integer id){
